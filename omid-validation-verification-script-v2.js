@@ -742,7 +742,7 @@ module$exports$omid$verificationClient$VerificationClient.prototype.sendMessage_
   this.communication && (e = module$contents$omid$common$guid_generateGuid(), b && (this.callbackMap_[e] = b), d = new module$exports$omid$common$InternalMessage(e, module$contents$omid$common$serviceMethodUtils_getPrefixedVerificationServiceMethod(a), module$contents$omid$verificationClient$VerificationClient_VERIFICATION_CLIENT_VERSION, module$contents$omid$common$ArgsSerDe_serializeMessageArgs(module$contents$omid$verificationClient$VerificationClient_VERIFICATION_CLIENT_VERSION, d)), this.communication.sendMessage(d));
 };
 module$contents$omid$common$exporter_packageExport("OmidVerificationClient", module$exports$omid$verificationClient$VerificationClient);
-var module$contents$omid$validationVerificationScript$ValidationVerificationClient_DefaultLogServer = "http://xandr.com/sendmessage?msg=", module$exports$omid$validationVerificationScript$ValidationVerificationClient = function(a, b) {
+var module$contents$omid$validationVerificationScript$ValidationVerificationClient_DefaultLogServer = "https://xandr.com/sendmessage?msg=", module$exports$omid$validationVerificationScript$ValidationVerificationClient = function(a, b) {
   var c = this;
   this.verificationClient_ = a;
   a = this.verificationClient_.isSupported();
